@@ -1,0 +1,133 @@
+*{
+	font-family: tahoma;
+	margin: 0;
+	padding: 0;
+	transition: width 0.3s;
+}
+a{	
+	border-radius: 5px;
+	color: black;
+	padding: 2px 5px;
+}
+a:hover{
+	background-color: white;
+	bottom: 2px;
+	box-shadow: 2px 2px 1px gray;
+	color: black;
+	cursor: pointer;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #E0EEEE;
+}
+button{
+	background-color: #E0EEEE;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 3px 3px 0 gray;
+	font-weight: bold;
+	margin: 3px;
+	padding: 5px;
+	width: 60px;
+}
+button:focus{
+	outline: none;
+}
+button:active{
+	bottom: -3px;
+	box-shadow: none;
+	position: relative;
+	right: -3px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+ul ul {
+    border-left: 2px dotted gray; /* Vertical DOTS*/
+    display: none;
+    margin: 0 0 0 30px;
+}
+ul.col-md-8{
+	min-height: 100vh;
+	padding: 30px;
+}
+i{
+	bottom: 2px;
+	margin: 3px;
+	position: relative; /* fix the i and input hight */ 
+}
+label{
+	border-radius: 5px;
+	padding: 2px 5px;
+	text-shadow: 1px 1px 1px #E0EEEE;
+}
+label:hover{
+	bottom: 2px;
+	box-shadow: 2px 2px 1px gray;
+	position: relative;
+}
+.last label:hover{
+	background-color: #E0EEEE;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+.totalSelected{
+	color: black;
+	text-shadow:  1px 1px 1px white;
+}
+.totalSelected:hover{
+	bottom: 0;
+	box-shadow: none;
+}
+.totalSelected span{
+	color: gray;
+	text-shadow: 1px 1px 0 black;
+}
+#root{
+	display: none;
+}
+#list{
+	background-color: #E0EEEE;
+	min-height: 100vh;
+	padding: 30px;
+}
+span{ 
+	bottom: 5px;
+	color: gray;
+	font-size: 16px;
+	padding: 5px;
+	position: relative; /*Horrizontal DOTS*/
+}
+.fa-folder, .fa-folder-open {
+	color: #ffe790;
+	text-shadow: 1px 1px 1px gray;
+}
+.fa-user-circle{
+	color: #E0EEEE;
+}
+.fa-trash-o:hover{
+	color: red;
+	transform: scale(1.5, 1.5);
+}
+.fa-user-circle:hover{
+	bottom: 4px;
+	text-shadow: 1px 1px 1px gray;
+}
+.totalSelected{
+	color: black;
+	text-shadow:  1px 1px 1px white;
+}
+.imageChild{
+	border: 1px solid black;
+	box-shadow: -2px 2px 2px black;
+	height: 200px;
+	padding: 5px;
+	width: 200px;
+	position: absolute;
+	right: 0;
+}
+.imageChild img{
+	width: 100%;
+}

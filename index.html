@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name='keywords' content='Pentastagiu, jQuery'>
+		<meta name='subject' content='JSON Tree with jQuery'>
+		<meta name='author' content='Gabriel, igabi@gmail.com'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gradinita</title>
+		<!-- <script src="https://use.fontawesome.com/eb10d07b8e.js"></script> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="styles.css" rel="stylesheet">
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+		<script src="javascript.js"></script>
+	</head>
+	<body>
+		<ul  id="tree" class="col-md-8">
+			<li>
+				<button id="show">SHOW</button>
+				<button id="hide">HIDE</button>
+			</li>
+			<li id="firstLi">
+				<i class="fa fa-folder fa-lg" aria-hidden="true"></i>
+				<input type="checkbox" id="item" name="item">
+				<label for="item">Gradinita</label>
+				<ul id="root" >
+				<!-- JSON Tree-->
+				</ul>
+			</li>
+		</ul>
+		<ul id="list" class="col-md-4">
+			<label></label>
+			<!-- List with Last Selected Childs -->
+		</ul>
+		
+	</body>
+</html>
